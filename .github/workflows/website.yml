@@ -2,12 +2,7 @@ name: website
 
 on:
   push:
-    branches: [ main ]
-  pull_request:
-    branches: [ main ]
-
-permissions:
-  contents: write
+    branches: [ v2.0 ]
 
 jobs:
   deploy:
